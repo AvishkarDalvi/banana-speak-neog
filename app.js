@@ -1,6 +1,8 @@
-var btnTranslate=document.querySelector("#btn-translate");
-var txtInput=document.querySelector("#txt-input");
-function clickEventHandler(){
-    console.log(txtInput.value);
+var btnTranslate = document.querySelector("#btn-translate");
+var txtInput = document.querySelector("#txt-input");
+var outputDiv = document.querySelector("#output");
+
+function clickEventHandler() {
+    outputDiv.innerText = "agagagagaagagg " + txtInput.value;
 }
-btnTranslate.addEventListener("click",clickEventHandler);
+btnTranslate.addEventListener("click", clickEventHandler);

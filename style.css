@@ -4,9 +4,11 @@
     --primary-color: #FDE047;
     --dark-gray: #27272A;
 }
-*{
+
+* {
     font-family: 'Comic Neue', cursive;
 }
+
 body {
     margin: 0px;
     background-color: #FEF9C3;
@@ -66,4 +68,18 @@ textarea {
 .container-center {
     max-width: 80%;
     margin: 1rem auto;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--dark-gray);
+    border-top-right-radius: 1rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: 2.2rem;
+    text-align: center;
 }
